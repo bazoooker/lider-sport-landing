@@ -1,0 +1,12 @@
+.sports-types {
+	background-image: url(../../img/slider-bg-2.jpg);
+	background-position: center-center;
+	background-size: cover;
+	@include section-padding;
+	h2 {
+		color: #fff;
+		text-transform: uppercase;
+	    padding: 0 0 40px 0;
+  		border-bottom: 1px solid;
+	}
+}
