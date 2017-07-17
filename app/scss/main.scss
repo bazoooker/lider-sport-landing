@@ -1,9 +1,5 @@
+@import "base/reset";
+@import "base/scale";
+@import "assets/stylesheets/bootstrap";
+@import "block/hr";
 
-
-.test {
-	display: flex;
-	text-align: center;
-	border: 1px solid black;
-	border-radius: 5px;
-	transform: translateY(40px);
-}
