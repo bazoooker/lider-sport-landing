@@ -1,0 +1,36 @@
+.navbar {
+	margin-bottom: 0 !important;
+	@include theme-gradient-horizontal;
+	border-bottom: 1px solid $theme-yellow;
+	min-heigth: 112px;
+	border: none;
+}
+
+.nav > li > a {
+    color: #fff;
+    letter-spacing: .03em;
+    text-shadow: none;
+    text-transform: uppercase;
+    line-height: 56px;
+}
+
+.nav > li > a:hover, 
+.nav > li > a:focus {
+    // text-decoration: none;
+    background-color: transparent;
+    // box-shadow: 0 5px 0 0 black;
+    color: $theme-yellow;
+    text-decoration: underline;
+}
+
+
+// adaptive
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+    padding-top: 25px;
+    padding-bottom: 20px;
+	}
+	.navbar {
+    border-radius: 0;
+}
